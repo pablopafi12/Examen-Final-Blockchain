@@ -40,6 +40,7 @@
     {
     
    //Realizamos el retiro 
+        
         bal = bal + amt;
     }
-}
+    }
