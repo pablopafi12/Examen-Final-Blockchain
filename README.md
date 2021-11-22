@@ -2,9 +2,11 @@ pragma solidity 0.8.7;
 
 contract Bank
 {
-    //Definimos la variable bal, la cual nos servirá para almacenar el balance
+    Definimos la variable bal, la cual nos servirá para almacenar el balance
+    
     int bal;
-    //Creamos un constructor
+    
+    Creamos un constructor
     constructor() public
     {
     //Le asignamos un valor 1 a la variable balance
