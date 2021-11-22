@@ -1,5 +1,4 @@
-pragma solidity 0.8.7;
-
+    pragma solidity 0.8.7;
     contract Bank
     {
    //Definimos la variable bal, la cual nos servirá para almacenar el balance
