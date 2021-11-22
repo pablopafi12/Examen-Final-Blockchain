@@ -2,6 +2,7 @@ pragma solidity 0.8.7;
 
 contract Bank
 {
+
     int bal;
 
     constructor() public
@@ -10,18 +11,20 @@ contract Bank
         bal = 1;
     }
 
+    function getBalance() view public returns(int)
     {
 
         return bal;
     }
 
+    function retirar(int amt) public
     {
 
         bal = bal - amt;
     }
-
+ 
+    function depositar(int amt) public
     {
-
         bal = bal + amt;
     }
 }
